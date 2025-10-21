@@ -48,3 +48,31 @@ The project uses a fake REST API (`json-server` or [fakestoreapi.com](https://fa
 ### Install Dependencies
 ```bash
 npm install
+```
+ ## Folder Structure
+
+shophub/
+├─ public/
+├─ src/
+│  ├─ components/       # Reusable UI components
+│  ├─ pages/            # Page components (Home, Dashboard, Cart, Wishlist, OrderHistory, Login)
+│  ├─ services/         # API calls and Firebase auth setup (api.js, firebase.ts)
+│  ├─ store/            # Redux or Context API store
+│  ├─ context/          # AuthContext.tsx for user & admin state
+│  ├─ App.tsx
+│  └─ index.tsx
+├─ db.json              # Fake backend JSON for json-server
+├─ package.json
+└─ README.md
+
+## Important Notes
+
+-Modify AuthContext.tsx to configure admin privileges.
+
+-Update firebase.ts with your Firebase project credentials.
+
+-db.json acts as a fake backend for products, users, and orders.
+
+-Products with stock = 0 cannot be added to cart or wishlist.
+
+
