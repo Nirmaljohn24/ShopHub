@@ -53,7 +53,8 @@ npm install
 ---
  ## Folder Structure
 ```
-shophub/
+ShopHub/
+frontEnd/
 ├─ public/
 ├─ src/
 │  ├─ components/       # Reusable UI components
@@ -63,7 +64,6 @@ shophub/
 │  ├─ context/          # AuthContext.tsx for user & admin state
 │  ├─ App.tsx
 │  └─ index.tsx
-├─ db.json              # Fake backend JSON for json-server
 ├─ package.json
 └─ README.md
 
