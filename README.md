@@ -12,7 +12,7 @@
 - Checkout flow with multiple saved addresses.  
 - Admin simulation: order status management (`On Process → Shipped → Delivered`).  
 
-The project uses a fake REST API (`json-server` or [fakestoreapi.com](https://fakestoreapi.com)) for products, orders, and users.
+The project uses a fake REST API ([fakestoreapi.com](https://fakestoreapi.com)) for products, orders, and users.
 
 ---
 
