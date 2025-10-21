@@ -52,7 +52,7 @@ npm install
 
 ---
  ## Folder Structure
-
+```
 shophub/
 ├─ public/
 ├─ src/
@@ -66,6 +66,8 @@ shophub/
 ├─ db.json              # Fake backend JSON for json-server
 ├─ package.json
 └─ README.md
+
+```
 
 ---
 
