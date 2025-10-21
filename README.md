@@ -83,4 +83,10 @@ shophub/
 
 ---
 
+### Run Developement Server
+```bash
+npm run dev
+```
+---
+
 
